@@ -8,6 +8,6 @@ class Auto(ABC):
         self.tipus = tipus
         self.berleti_dij = berleti_dij
 
-        @abstractmethod
-        def get_auto_informacio(self):
-            pass
+    @abstractmethod
+    def get_auto_informacio(self):
+        pass
